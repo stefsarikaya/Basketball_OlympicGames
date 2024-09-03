@@ -89,7 +89,7 @@ function simulateGame(team1, team2, isGroupStage = true) {
   return gameResult;
 }
 
-
+/*
 function rankTeams(group) {
   const sortedTeams = groups[group].map(team => teams[team.ISOCode]); // Dodao si mu ažurirane podatke
   // sa utakmicama i bodovima, a ne da ostane početni Teams, koji ima samo atribute bez vrednosti
@@ -101,6 +101,7 @@ function rankTeams(group) {
 
   return sortedTeams;
 }
+*/
 
 // Proverava da li timovi mogu igrati međusobno u četvrtfinalu
 function canPlay(team1, team2) {
